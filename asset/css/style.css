@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #083B4C;
+  font-family: 'Protest Strike', sans-serif;
+}
+
+main{
+  text-align: center;
+  padding: 50px 100px;
+  color: rgb(32, 19, 19);
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.number {
+  background-color: #1389B2;
+}
+
+.fizz {
+  background-color: #0CD6A1;
+}
+
+.buzz {
+  background-color: #FFD166;
+}
+
+.fizzbuzz {
+  background-color: #F0466F;
+}
